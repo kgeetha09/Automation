@@ -43,7 +43,7 @@ formatter.match({
   "location": "CheckoutSteps.thePriceOfAIsCents(String,int)"
 });
 formatter.result({
-  "duration": 954030540,
+  "duration": 418877957,
   "status": "passed"
 });
 formatter.match({
@@ -60,7 +60,7 @@ formatter.match({
   "location": "CheckoutSteps.iCheckout(int,String)"
 });
 formatter.result({
-  "duration": 306110,
+  "duration": 315141,
   "status": "passed"
 });
 formatter.match({
@@ -73,7 +73,7 @@ formatter.match({
   "location": "CheckoutSteps.theTotalPriceShouldBeCents(int)"
 });
 formatter.result({
-  "duration": 9853793,
+  "duration": 6376280,
   "error_message": "java.lang.AssertionError: expected:\u003c40\u003e but was:\u003c4\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:555)\r\n\tat org.junit.Assert.assertEquals(Assert.java:542)\r\n\tat step_definitions.CheckoutSteps.theTotalPriceShouldBeCents(CheckoutSteps.java:37)\r\n\tat ✽.Then the total price should be 40cents(checkout.feature:5)\r\n",
   "status": "failed"
 });
